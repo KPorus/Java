@@ -24,13 +24,15 @@ class BoxWeight extends Box{
         System.out.println("From BoxWeight default constructor weight" + " "+weight);
     }
     
-    BoxWeight(int weight){
+    BoxWeight(int weight, int length, int height){
+        super(length, height);
         this.weight = weight;
         System.out.println("From Box parameterized constructor weight" + " " + weight);
     }
     
-    BoxWeight(BoxWeight b1){
-        weight = b1.weight;
+    BoxWeight(BoxWeight b2){
+        super(b2);
+        weight = b2.weight;
         System.out.println("From Box copy constructor weight" + " " + weight);
     }
 }
@@ -60,7 +62,7 @@ public class Task {
         Box box3 = new Box(box);
 
         BoxWeight b1 = new BoxWeight();
-        BoxWeight b2 = new BoxWeight(14);
+        BoxWeight b2 = new BoxWeight(14,10,2);
         BoxWeight b3 = new BoxWeight(b2);
 
         BoxColor c1 = new BoxColor();
