@@ -34,7 +34,7 @@ class BoxColor extends BoxWeight{
     }
 
     BoxColor(int lenght,int height,int width, int weight, String color){
-        super(weight);
+        super(lenght, height, width, weight);
         this.color = color;
     }
 };
