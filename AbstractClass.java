@@ -1,6 +1,7 @@
 abstract class test{
     protected int a;
-    void greet(int a){}
+    abstract void greet(int a); // abstruct mehtod
+    void greet2(){}; // not abstract mehtod
 }
 
 class test2 extends test{
