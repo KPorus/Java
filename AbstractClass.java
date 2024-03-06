@@ -1,4 +1,5 @@
 abstract class test{
+    //private int a;
     protected int a;
     abstract void greet(int a); // abstruct mehtod
     void greet2(){
@@ -11,6 +12,7 @@ class test2 extends test{
     {
         this.a= a;
         System.out.println("Hello"+""+this.a);
+        //super.greet2();
     }
 }
 
