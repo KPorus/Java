@@ -91,9 +91,7 @@ public class Java_Phone implements Contact_Numbers, Messages {
     }
 
     public boolean isFirstTwoDigits01(int input) {
-        // Extract the first two digits
         int firstTwoDigits = input / 1000000000; // For a 10-digit number
-        // Check if the first two digits are '01'
         return firstTwoDigits == 1;
     }
 
