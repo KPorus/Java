@@ -81,15 +81,15 @@ class CreateAccount implements Java_Account, Java_Password, Java_Verify_me {
     }
 
     public void set_password(String password) {
-        System.out.println(isValid(password));
         if (isValid(password)) {
-            password = this.password;
+            this.password = password;
         } else {
             System.out.println("Please follow the proper format for password.");
-            get_password();
+            get_password(); // Re-prompt for password
+            set_password(passwordInput); // Validate again
         }
     }
-
+ 
     public void get_number() {
         System.out.println("Enter a phone number: ");
         phoneNumber = scanner.nextInt();
@@ -98,13 +98,14 @@ class CreateAccount implements Java_Account, Java_Password, Java_Verify_me {
     public void send_otp(int number) {
         Random rand = new Random();
         otp = String.format("%04d", rand.nextInt(10000));
-        System.out.printf("%04d%n", rand.nextInt(10000));
+        System.out.println("OTP sent to the provided number.");
     };
 
     public void verify_otp() {
-        String userOtp = scanner.nextLine();
-        if (otp == userOtp) {
-            System.out.println("User vertified successfully");
+        System.out.println("Enter OTP received:");
+        String userOtp = scanner.next();
+        if (otp.equals(userOtp)) {
+            System.out.println("User verified successfully");
         } else {
             System.out.println("OTP is wrong, try again");
         }
