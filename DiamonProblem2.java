@@ -14,7 +14,7 @@ interface Final extends Welcome{
         System.out.println("Called from Final class");
     }
 }
-public class DiamonProblem2 implements Welcome, Final{
+public class DiamonProblem2 implements Final{
     public void greet()
     {
         System.out.println("After overriding");

@@ -76,7 +76,6 @@ public class Java_Phone implements Contact_Numbers, Messages {
             }
         } catch (Exception e) {
             System.out.println(e + ":" + " Please provide valid input.");
-            // TODO: handle exception
         }
     }
 
@@ -138,5 +137,6 @@ public class Java_Phone implements Contact_Numbers, Messages {
         weatherInfo.set_temparature(temperature);
 
         weatherInfo.PrintWeatherInfo();
+        scanner.close();
     }
 }
