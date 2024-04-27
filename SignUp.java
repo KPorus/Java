@@ -106,7 +106,7 @@ class CreateAccount implements Java_Account, Java_Password, Java_Verify_me {
         if (otp == userOtp) {
             System.out.println("User vertified successfully");
         } else {
-            System.out.println("User verification failed");
+            System.out.println("OTP is wrong, try again");
         }
     };
 }
