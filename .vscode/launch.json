@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ClassTest",
+      "request": "launch",
+      "mainClass": "ClassTest",
+      "projectName": "Java_118cf1fe"
+    },
+    {
+      "type": "java",
+      "name": "Accounts",
+      "request": "launch",
+      "mainClass": "Accounts",
+      "projectName": "Java_118cf1fe"
+    },
+    {
+      "type": "java",
       "name": "VehicleClass",
       "request": "launch",
       "mainClass": "VehicleClass",
