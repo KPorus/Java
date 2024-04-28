@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RunnableClass",
+      "request": "launch",
+      "mainClass": "Thread.RunnableClass",
+      "projectName": "Java_118cf1fe"
+    },
+    {
+      "type": "java",
+      "name": "ConcurrentThread",
+      "request": "launch",
+      "mainClass": "Thread.ConcurrentThread",
+      "projectName": "Java_118cf1fe"
+    },
+    {
+      "type": "java",
       "name": "Java_Phone",
       "request": "launch",
       "mainClass": "Java_Phone",
