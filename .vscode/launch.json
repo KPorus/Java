@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "AnagramChecker",
+      "request": "launch",
+      "mainClass": "AnagramChecker",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "OddEven",
+      "request": "launch",
+      "mainClass": "Thread.OddEven",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "RunnableClass",
       "request": "launch",
       "mainClass": "Thread.RunnableClass",
