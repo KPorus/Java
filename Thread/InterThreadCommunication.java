@@ -1,3 +1,4 @@
+package Thread;
 import java.util.Scanner;
 
 class Pc {
