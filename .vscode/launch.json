@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CounterExample",
+      "request": "launch",
+      "mainClass": "Thread.CounterExample",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Task1",
+      "request": "launch",
+      "mainClass": "Thread.Task1",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "InterThreadCommunication",
       "request": "launch",
       "mainClass": "InterThreadCommunication",
