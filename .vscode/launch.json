@@ -3,6 +3,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "PriorityScheduling",
+      "request": "launch",
+      "mainClass": "Thread.PriorityScheduling",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "RoundRobinScheduling",
+      "request": "launch",
+      "mainClass": "Thread.RoundRobinScheduling",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Test",
+      "request": "launch",
+      "mainClass": "File.Test",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "CollectionFramework.test",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Two3",
+      "request": "launch",
+      "mainClass": "CollectionFramework.Two3",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Two",
+      "request": "launch",
+      "mainClass": "CollectionFramework.Two",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "StackT",
+      "request": "launch",
+      "mainClass": "CollectionFramework.StackT",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Forth",
+      "request": "launch",
+      "mainClass": "CollectionFramework.Forth",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
+      "name": "Lab9",
+      "request": "launch",
+      "mainClass": "CollectionFramework.Lab9",
+      "projectName": "Java_72da403b"
+    },
+    {
+      "type": "java",
       "name": "CounterExample",
       "request": "launch",
       "mainClass": "Thread.CounterExample",
